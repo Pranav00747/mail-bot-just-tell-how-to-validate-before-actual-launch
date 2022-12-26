@@ -17,8 +17,11 @@ get_msgs <- function(host, email, pass)
  smtp_send<- smtp_connect(host, email, pass, 587)
  smtp_send<- send_mail(from, subject, to, text)
  }
- 
- 
- 
-     
- 
+
+
+at_the_end<-function()
+{
+  commit <- "I hope you will like it i have some upcoming things so i am busy I will upload both things (Deep Learning Kit) and third Speech (ML) project at the same time."
+  print(commit)
+  print ("Bye Bye 🙃")
+}
