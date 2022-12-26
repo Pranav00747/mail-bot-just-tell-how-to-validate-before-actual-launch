@@ -21,7 +21,7 @@ get_msgs <- function(host, email, pass)
 
 at_the_end<-function()
 {
-  commit <- "I hope you will like it i have some upcoming things so i am busy I will upload both things (Deep Learning Kit) and third Speech (ML) project at the same time."
+  commit <- "I hope you will like it i have some upcoming things so i am busy I will upload both things with this (Deep Learning Kit) and third Speech Automation Robot(ML) project at the same time."
   print(commit)
   print ("Bye Bye 🙃")
 }
