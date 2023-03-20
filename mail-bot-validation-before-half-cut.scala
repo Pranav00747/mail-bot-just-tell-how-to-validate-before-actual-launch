@@ -151,7 +151,7 @@ class BackPane extends gcPane
    w.settitle("EmailBot");
    w..exited_on_click(EXIT_CLICK);
    w.setback(new Color(0, 0, 0));
-   w.sett(null);
+   w.settextcolor(null);
    w.seticon(image.get_image("mailbot.png"));
    bx.setdimension(0, 0, w.width, w.height);
    bx.setlayout(null);
